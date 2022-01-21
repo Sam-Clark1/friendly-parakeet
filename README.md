@@ -4,7 +4,7 @@
 To write Javascript code that generates a password after being prompted about desired password length and character types that you would like to be in it. 
 
 ## Website
-https://sam-clark1.github.io/friendly-parakeet/
+https://sam-clark1.github.io/password-generator/
 
 
 ## Screenshot
