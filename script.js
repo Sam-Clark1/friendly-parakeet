@@ -6,7 +6,6 @@ var generatePassword = function() {
   // calls method inside charType object to begin the process of choosing character types
   charType.lowerChar();
   // Displays generated password in the box on the website
-  console.log(charType.genPass.length);
   return charType.genPass;
   
 }
