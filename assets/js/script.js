@@ -1,10 +1,14 @@
 // Assignment code here
 
 var generatePassword = function() {
+  // resets generated password from previous attempts
+  charType.chosenChars = "";
+  charType.genPass = "";
   // calls function that prompts choosing desired password legnth
   passwordLength();
   // calls method inside charType object to begin the process of choosing character types
   charType.lowerChar();
+  console.log(charType.genPass.length)
   // Displays generated password in the box on the website
   return charType.genPass;
   
@@ -20,6 +24,7 @@ var passwordLength = function() {
     passwordLength();
   }
 }
+
 // Object that holds the properties and methods of choosing character types
 var charType = {
 lower: "abcdefghijklmnopqrstuvwxyz",

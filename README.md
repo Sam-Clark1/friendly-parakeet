@@ -8,7 +8,7 @@ https://sam-clark1.github.io/password-generator/
 
 
 ## Screenshot
-<img src = "./images/pass-gen-ss.png" alt = "password generator" />
+<img src = "./assets/images/pass-gen-ss.png" alt = "password generator" />
 
 ## Description
 - Includes a button that when clicked, brings up a prompt asking for how long you would like your password to be (must be between 8 and 128 characters.)
